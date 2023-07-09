@@ -6,6 +6,7 @@ import HistoryScreen from './assets/components/HistoryScreen/HistoryScreen.jsx'
 import TravelScreen from './assets/components/TravelScreen/TravelScreen.jsx'
 import GalleryScreen from './assets/components/GalleryScreen/GalleryScreen.jsx'
 import ContactsScreen from './assets/components/ContactsScreen/ContactsScreen.jsx'
+import { Router } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -14,5 +15,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <TravelScreen/>
     <GalleryScreen/>
     <ContactsScreen/>
+   
   </React.StrictMode>,
 )
