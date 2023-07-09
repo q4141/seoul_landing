@@ -1,0 +1,60 @@
+.headlineDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding:80px 200px;
+  font-weight: 900;
+  font-size: 48px;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+.about img {
+  width: 100%;
+}
+.date {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 36px;
+}
+.date p {
+    padding-left: 70px;
+  }
+.date img {
+  padding-top: 100%;
+  width: 400px;
+  height: 400px;
+  
+}
+.describe {
+  width: 50%;
+}
+.describe h2{
+    font-size: 36px;
+  }
+  .describe p{
+    font-size: 24px;
+    padding: 60px 0;
+  }
+
+  .readMoreDiv{
+    padding-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.readMoreDiv:active{
+ 
+    transition: transform 0.1s ease;
+    transform: translateX(3px);
+    
+}

@@ -1,10 +1,18 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import FirstScreen from './assets/components/FirstScreen/FirstScreen.jsx'
+import  './main.module.css'
+import HistoryScreen from './assets/components/HistoryScreen/HistoryScreen.jsx'
+import TravelScreen from './assets/components/TravelScreen/TravelScreen.jsx'
+import GalleryScreen from './assets/components/GalleryScreen/GalleryScreen.jsx'
+import ContactsScreen from './assets/components/ContactsScreen/ContactsScreen.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <FirstScreen />
+    <HistoryScreen/>
+    <TravelScreen/>
+    <GalleryScreen/>
+    <ContactsScreen/>
   </React.StrictMode>,
 )

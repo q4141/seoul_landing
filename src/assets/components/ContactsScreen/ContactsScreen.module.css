@@ -1,0 +1,56 @@
+.contactsSection {
+  display: flex;
+  flex-direction: column;
+ padding: 250px 0 ;
+}
+.headline {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 200px;
+}
+.headline img {
+  width: 700px;
+}
+.contactsForm {
+  height: 600px;
+}
+.headline h2 {
+  font-size: 48px;
+}
+.rigtSide img {
+  width: 600px;
+}
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  padding: 0 100px;
+}
+.inputDiv {
+  width: 390px;
+}
+.inputDiv div {
+  padding: 10px 0px;
+}
+.contactsSection input {
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 250px;
+  padding-top: 10px;
+}
+.rigtSide p {
+  font-size: 24px;
+}
+.sendDiv{
+   
+    
+}
+.sendDiv:active{
+    transition: transform 0.1s ease;
+    transform: translateX(3px);
+    
+}
