@@ -5,17 +5,16 @@ import "./main.module.css";
 import HistoryScreen from "./assets/components/HistoryScreen/HistoryScreen.jsx";
 import TravelScreen from "./assets/components/TravelScreen/TravelScreen.jsx";
 import GalleryScreen from "./assets/components/GalleryScreen/GalleryScreen.jsx";
-import ContactsScreen from "./assets/components/ContactsScreen/ContactsScreen.jsx";
-import { Router } from "react-router-dom";
 
-ReactDOM.createRoot(document.getElementById("root")).render(
+import App from "./assets/components/App.jsx";
+
+import Router from './assets/components/Router.jsx';
+
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
   <React.StrictMode>
-    <Router>
-      <FirstScreen />
-      <HistoryScreen />
-      <TravelScreen />
-      <GalleryScreen />
-      <ContactsScreen />
-    </Router>
+    <Router />
   </React.StrictMode>
 );
