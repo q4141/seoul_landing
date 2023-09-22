@@ -10,7 +10,7 @@ const FirstScreen = () => {
     <section className={styles.wrapper}>
       <div className={styles.leftSideMainScreen}>
         <ul className={styles.navbar}>
-          <li className={styles.red}>HOMEEEEEEEEE</li>
+          <li className={styles.red}>HOME</li>
           <li>
             <a href="#travelSection">TRAVEL</a>
           </li>
