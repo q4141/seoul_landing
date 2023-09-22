@@ -6,10 +6,12 @@ import FirstScreen from "./assets/components/FirstScreen/FirstScreen";
 import TravelScreen from "./assets/components/TravelScreen/TravelScreen";
 import GalleryScreen from "./assets/components/GalleryScreen/GalleryScreen";
 import ContactsScreen from "./assets/components/ContactsScreen/ContactsScreen";
+import Calculator from "./assets/components/calculator/Calculator";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <Calculator/>
     <FirstScreen />
     <HistoryScreen />
     <TravelScreen />
