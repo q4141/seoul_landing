@@ -6,21 +6,29 @@ import Arrow from "../../img/arrow.svg";
 
 const FirstScreen = () => {
   return (
-    //test
+    //test 2
     <section className={styles.wrapper}>
       <div className={styles.leftSideMainScreen}>
         <ul className={styles.navbar}>
           <li className={styles.red}>HOME</li>
-          <li><a href="#travelSection">TRAVEL</a></li>
-          <li><a href="#gallerySection">GALLERY</a></li>
-          <li><a href="#contactsSection">CONTACTS</a></li>
-          
+          <li>
+            <a href="#travelSection">TRAVEL</a>
+          </li>
+          <li>
+            <a href="#gallerySection">GALLERY</a>
+          </li>
+          <li>
+            <a href="#contactsSection">CONTACTS</a>
+          </li>
         </ul>
         <div className={styles.centerText}>
           <h1 className={styles.headText}>TRAVEL TO SEOUL</h1>
-          <p className={styles.maintext}>spend 1 month of comfort in another culture</p>
+          <p className={styles.maintext}>
+            spend 1 month of comfort in another culture
+          </p>
           <div className={styles.readMoreDiv}>
-            <p className={styles.maintext}>Read more</p> <img src={Arrow} alt="arrow" />
+            <p className={styles.maintext}>Read more</p>{" "}
+            <img src={Arrow} alt="arrow" />
           </div>
         </div>
 
